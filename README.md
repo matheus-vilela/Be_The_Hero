@@ -1,3 +1,6 @@
 # Be_The_Hero
+#### Rocketseat - Omnistack 11.0 
 
-## App em construção
+### Backend concluido
+***
+### Estudando o frontend e mobile...
