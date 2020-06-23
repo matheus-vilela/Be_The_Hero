@@ -2,13 +2,11 @@
 
 ###  🚀 Semana OmniStack 11.0
 
-
-
 ![Made by Rocketseat](https://img.shields.io/badge/made%20by-Rocketseat-red?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/vilelagit/be_the_hero?color=red&style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/vilelagit/be_the_hero?color=red&style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/vilelagit/be_the_hero?color=red&style=for-the-badge)
-
+***
 ![BeTheHero](.github/bethehero.png)
 
 
@@ -37,8 +35,10 @@ $ git clone https://github.com/vilelagit/Be_The_Hero
 
 # Go into the repository
 $ cd Be_The_Hero
-
-# Run Backend
+```
+#### Run Backend:
+```bash
+# Open Backend
 $ cd backend
 
 # Install dependencies
@@ -46,8 +46,10 @@ $ npm install
 
 # Start Backend
 $ npm start
-
-# Run Frontend
+```
+#### Run Frontend:
+```bash
+# Open Frontend
 $ cd frontend
 
 # Install dependencies
@@ -55,8 +57,10 @@ $ npm install
 
 # Start Frontend
 $ npm start
-
-# Run Mobile
+```
+#### Run Mobile:
+```bash
+# Open Mobile
 $ cd mobile
 
 # Install dependencies
