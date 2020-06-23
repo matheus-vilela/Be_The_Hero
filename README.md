@@ -3,16 +3,14 @@
 ###  🚀 Semana OmniStack 11.0
 
 
-![Made by Rocketseat](https://img.shields.io/badge/made%20by-Rocketseat-7159c1?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/vilelagit/be_the_hero?color=7159c1&style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/vilelagit/be_the_hero?color=7159c1&style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/vilelagit/be_the_hero?color=7159c1&style=for-the-badge)
 
-<br>
+![Made by Rocketseat](https://img.shields.io/badge/made%20by-Rocketseat-red?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/vilelagit/be_the_hero?color=red&style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/vilelagit/be_the_hero?color=red&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/vilelagit/be_the_hero?color=red&style=for-the-badge)
 
-<p align="center">
-  <img alt="BeTheHero" src=".github/bethehero.png" width="100%">
-</p>
+![BeTheHero](.github/bethehero.png)
+
 
 ## :white_check_mark: Technologies
 
