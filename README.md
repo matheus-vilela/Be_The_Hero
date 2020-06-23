@@ -72,7 +72,7 @@ $ expo start
 ```
 ---
 
-By Matheus Vilela :wave: [Get in touch!](https://www.linkedin.com/in/matheus-vilela-a348051a7/)
+<h4 align="center"> <em>&lt;/&gt;</em> by <a href="https://github.com/vilelagit" target="_blank">Matheus Vilela</a> ✌</h4>
 
 [nodejs]: https://nodejs.org/
 [expo]: https://docs.expo.io/
