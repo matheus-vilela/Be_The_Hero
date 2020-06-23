@@ -1,6 +1,6 @@
 ![logo](./logo.png)
 
-###  🚀 Semana OmniStack 11.0
+###  Semana OmniStack 11.0 🚀 
 
 ![Made by Rocketseat](https://img.shields.io/badge/made%20by-Rocketseat-red?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/vilelagit/be_the_hero?color=red&style=for-the-badge)
