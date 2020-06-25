@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
-import alertify from "alertifyjs";
 
 import api from "../../services/api";
-
 import "./styles.css";
-import "./alertify.min.css";
 
 import logoImg from "../../assets/logo.svg";
 
@@ -33,16 +30,11 @@ export default function Register() {
     try {
       const response = await api.post("ongs", data);
 
-      alertify.alert(
-        `Yeah! Obrigado por se cadastar em nosso sistema! Aqui está o seu ID de acesso: ${response.data.id} 🦸‍♂️`,
-        function () {}
-      );
+      alert(`Seu ID de acesso: ${response.data.id}`);
 
       history.push("/");
     } catch (err) {
-      alertify.error(
-        "Ih, acho que o Superman encostou em uma Kryptonita! Teve um erro no cadastro, tente novamente."
-      );
+      alert("Erro no cadastro, tente novamente.");
     }
   }
 
@@ -54,15 +46,16 @@ export default function Register() {
 
           <h1>Cadastro</h1>
           <p>
-            Faça seu cadastro e ajude pessoas a encontrarem os casos da sua ONG.
-            🦸‍♂️
+            Faça seu cadastro, entre na plataforma e ajude pessoas a encontrarem
+            os casos da sua ONG.
           </p>
 
           <Link className="back-link" to="/">
             <FiArrowLeft size={16} color="#E02041" />
-            Voltar para o logon
+            Não tenho cadastro
           </Link>
         </section>
+
         <form onSubmit={handleRegister}>
           <input
             placeholder="Nome da ONG"
@@ -78,7 +71,7 @@ export default function Register() {
           />
 
           <input
-            placeholder="Whatsapp"
+            placeholder="WhatsApp"
             value={whatsapp}
             onChange={(e) => setWhatsapp(e.target.value)}
           />
@@ -99,8 +92,7 @@ export default function Register() {
           </div>
 
           <button className="button" type="submit">
-            {" "}
-            Cadastrar{" "}
+            Cadastrar
           </button>
         </form>
       </div>
